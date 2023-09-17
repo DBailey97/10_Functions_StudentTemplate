@@ -1,26 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 5</title>
+    <title>Task 4</title>
   </head>
   <body>    
     <script>
-      let temp = -1;
+      const firstName = prompt("First Name?")
+      const lastName = prompt("Last Name?")
 
-      if (temp <= 0) {
-        console.log("Stay inside")
-      }
-      else if (temp <= 30) {
-        console.log("Wear a coat and hat")
-      }
-      else if (temp <= 50) {
-        console.log("Put on a coat")
-      }
-      else {
-        console.log("Pants and Vest is fine")
-      }
+      // function fullName(firstName, lastName) {
+      //   return firstName + lastName
+      //    };
+      // console.log('response' , fullName(firstName, lastName));
+
+    let fullName = (firstName, lastName) => firstName + lastName;
+  console.log(fullName(firstName, lastName));
     </script>
   </body>
 </html>
